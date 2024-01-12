@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0% 0% 0% 1%;
+    justify-content: center;
+}
+
+#heading{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.gallery{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2px;
+    background-size: cover;
+    /* object-fit: cover; */
+    justify-content: center;
+    
+    
+}
+
+.gallery img{
+    width: 50%;
+    height: 220%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(27, 3, 3);
+    transition: all ease 0.3s;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+.gallery img:hover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 250%;
+    width: 900px;
+
+}
